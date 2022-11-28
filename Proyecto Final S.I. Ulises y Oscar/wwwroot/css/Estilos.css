@@ -1,0 +1,158 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-principal {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/tipos-lectura-default.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.display-4 {
+    position: center;
+    color: whitesmoke;
+}
+
+.header-responsabilidad {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/responsabilidad.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.header-privacidad {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/politica-de-privacidad.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.header-cifrado {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/cifrado.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.header-criptografia {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/criptografia.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.header-integridad {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/integridad.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.header-estandares {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/estandares.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.header-seguridad {
+    min-height: 38vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(71,75,78,0.7316655177696079) 0%, rgba(71,75,78,0.6364274225315126) 44%, rgba(103,119,130,0.6364274225315126) 100%), url(../img/seguridad.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+header {
+    background: rgb(0,58,93);
+    background: linear-gradient(90deg, rgba(0,58,93,1) 0%, rgba(29,113,184,1) 100%);
+}
+
+.navbar-brand {
+    background: rgba(0,58,93,1);
+}
+
+hr {
+    border: 1.2px solid black;
+}
+
+body {
+    background: #efefef;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.card-body h6 {
+    font-style: oblique;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.card-body h5 {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-color1 {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 33%, rgba(202,158,103,0.692449831495098) 100%);
+}
+
+.card-color2 {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 33%, rgba(29,113,184,0.7400688791141457) 100%);
+}
+
+
+.btn-comprar {
+    background: rgba(0,58,93,1);
+    color: white;
+    margin-right: 50px;
+}
+
+i {
+    color: white;
+    margin: 5px;
+}
+
+span {
+    font-size: 1.1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+
+footer {
+    margin-top: 5%;
+}
