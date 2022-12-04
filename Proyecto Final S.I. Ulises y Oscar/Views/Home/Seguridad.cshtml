@@ -13,16 +13,46 @@
 
 	<ul class="list-group list-group-flush">
 
-		<li class="list-group-item card-color1"> <h2>HTTPS</h2><br><p></p></li>
-		<li class="list-group-item card-color2"> <h2>SSL</h2><br><p></p></li>
-		<li class="list-group-item card-color1">    <h2>FTPS</h2><br><p></p></li>
-		<li class="list-group-item card-color2"><h2>SSH</h2><br><p></p></li>
-		<li class="list-group-item card-color1"><h2>IPSEC</h2><br><p></p></li>
-		<li class="list-group-item card-color2"> <h2>SET</h2><br><p></p></li>
-		<li class="list-group-item card-color1"> <h2>SCP</h2><br><p></p></li>
-		<li class="list-group-item card-color2">    <h2>SFTP</h2><br><p></p></li>
-		<li class="list-group-item card-color1"><h2>SMTPS</h2><br><p></p></li>
-		<li class="list-group-item card-color2"><h2>IMAPS</h2><br><p></p></li>
+		<li class="list-group-item card-color1"> <h2>HTTPS</h2><br><p>
+				HTTPS (protocolo de Transferencia de Hiper-Texto) es un protocolo que permite establecer una conexión segura entre el servidor y el cliente, que no puede ser interceptada por personas no autorizadas. En resumidas cuentas, es la versión segura del http (Hyper Text Transfer Protocol).
+		</p></li>
+		<li class="list-group-item card-color2"> <h2>SSL</h2><br><p>
+				SSL es el acrónimo de Secure Sockets Layer (capa de sockets seguros), la tecnología estándar para mantener segura una conexión a Internet, así como para proteger cualquier información confidencial que se envía entre dos sistemas e impedir que los delincuentes lean y modifiquen cualquier dato que se transfiera, incluida información que pudiera considerarse personal. Los dos sistemas pueden ser un servidor y un cliente (por ejemplo, un sitio web de compras y un navegador) o de servidor a servidor (por ejemplo, una aplicación con información que puede identificarse como personal o con datos de nóminas).
+		</p></li>
+		<li class="list-group-item card-color1">    <h2>FTPS</h2><br><p>
+				Las siglas FTPS provienen de FTP over SSL y no es más que el protocolo estándar FTP transmitido sobre una conexión segura. Inicialmente la conexión segura hacía referencia únicamente SSL (Secure Sockets Layer), pero con el paso del tiempo y la aparición del protocolo TLS (Transport Layer Security), también soporta este último. Este protocolo hace uso de dos canales diferentes: uno de control y otro de transferencia, y tiene dos variantes bien diferenciadas: FTP implícito sobre SSL y FTP explicito sobre SSL.
+		</p></li>
+		<li class="list-group-item card-color2"><h2>SSH</h2><br><p>
+				SSH (o Secure SHell, en español: intérprete de órdenes seguro) es el nombre de un protocolo y del programa que lo implementa cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada. Además de la conexión a otros dispositivos, SSH permite copiar datos de forma segura (tanto archivos sueltos como simular sesiones FTP cifradas), gestionar claves RSA para no escribir contraseñas al conectar a los dispositivos y pasar los datos de cualquier otra aplicación por un canal seguro tunelizado mediante SSH y también puede redirigir el tráfico del (Sistema de Ventanas X) para poder ejecutar programas gráficos remotamente. El puerto TCP asignado es el 22.
+		</p></li>
+		<li class="list-group-item card-color1"><h2>IPSEC</h2><br><p>
+				IPSec es un conjunto de reglas o protocolos de comunicación para configurar conexiones seguras a través de una red. El protocolo de Internet (IP) es el estándar común que determina cómo viajan los datos por Internet. IPSec agrega cifrado y autenticación para hacer que el protocolo sea más seguro. Por ejemplo, IPSec codifica los datos en el origen y los descodifica en su destino. También autentica el origen de los datos.
+		</p></li>
+		<li class="list-group-item card-color2"> <h2>SET</h2><br><p>
+				Transacción electrónica segura o SET (del inglés, Secure Electronic Transaction) es un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de Identificación en redes de computadoras inseguras, en especial Internet.
+				SET surge de una solicitud de estándar de seguridad por VISA y MasterCard en diciembre de 1996 y la especificación inicial involucró a un amplio rango de Empresas, tales como GTE, IBM, Microsoft, Netscape, RSA y VeriSign. Utiliza técnicas criptográficas tales como certificados digitales y criptografía de clave pública para permitir a las entidades llevar a cabo una autenticación entre sí y además intercambiar información de manera segura.
+
+		</p></li>
+		<li class="list-group-item card-color1"> <h2>SCP</h2><br><p>
+				Secure Copy Protocol (SCP), a menudo denominado simplemente Secure Copy, es un protocolo para sistemas informáticos, que garantiza la transferencia segura de datos entre un equipo local (host local) y un equipo remoto (host remoto) o, alternativamente, entre dos equipos remotos. Se basa en los comandos RCP, (remote copy), que se publicaron en 1982 como parte de los “comandos r” de la Universidad de California (Berkeley). Permiten el control de la transmisión de datos a través de la línea de comandos.
+				SCP ofrece un método de autenticación entre los dos equipos, así como un cifrado de la transmisión. Por lo tanto, el protocolo no solo garantiza la seguridad, sino también la autenticidad de los datos transferidos. En ambos mecanismos de seguridad el SCP protocol se basa en SSH (Secure Shell), que también se utiliza en protocolos alternativos de transmisión como FTP (o SFTP). El puerto TCP que utiliza para la transferencia a través de SCP es el puerto estándar SSH 22.
+
+		</p></li>
+		<li class="list-group-item card-color2">    <h2>SFTP</h2><br><p>
+				SFTP es la abreviatura de Secure File Transfer Protocol (Protocolo de transferencia segura de archivos). Este protocolo permite transferir datos cifrados entre tu ordenador local y el espacio web del que dispones en tu hosting de STRATO a través de Secure Shell (SSH).
+				El protocolo de transferencia de archivos SFTP es independiente del sistema operativo que se utilice y del tipo de conexión. Además de la posibilidad de transferir archivos a través de SFTP, también permite visualizar directorios, cambiar el nombre o limitar derechos. SFTP es el sucesor de FTP: la diferencia es una mayor seguridad, como lo revela el añadido "Seguro".
+
+		</p></li>
+		<li class="list-group-item card-color1"><h2>SMTPS</h2><br><p>
+				El protocolo para transferencia simple de correo (en inglés: Simple Mail Transfer Protocol o SMTP) es un protocolo de red utilizado para el intercambio de mensajes de correo electrónico entre computadoras u otros dispositivos (PDA, teléfonos móviles, impresoras, etc.). Se encuentra en la capa de aplicación del modelo OSI, la última de este modelo, en la que se dispone la interfaz entre las aplicaciones de comunicación y la red que transmite los mensajes.
+				El funcionamiento de este protocolo se da en línea, de manera que opera en los servicios de correo electrónico.
+
+			</p></li>
+		<li class="list-group-item card-color2"><h2>IMAPS</h2><br><p>
+				El protocolo de acceso a mensajes de Internet (en inglés Internet Message Access Protocol o IMAP), es un protocolo de aplicación que permite el acceso a mensajes almacenados en un servidor de Internet. Mediante IMAP se puede tener acceso al correo electrónico desde cualquier equipo que tenga una conexión a Internet. IMAP tiene varias ventajas sobre POP (otro protocolo empleado para obtener correos desde un servidor). Por ejemplo, es posible especificar en IMAP carpetas del lado del servidor. Por otro lado, es más complejo que POP ya que permite visualizar los mensajes de manera remota y no descargando los mensajes como lo hace POP.
+				IMAP y POP3 (Post Office Protocol versión 3) son los dos protocolos que prevalecen en la obtención de correo electrónico. Todos los servidores y clientes de correo electrónico están virtualmente soportados por ambos, aunque en algunos casos hay algunas interfaces específicas del fabricante típicamente propietarias.
+
+		</p></li>
 	</ul>
 </div>
 
