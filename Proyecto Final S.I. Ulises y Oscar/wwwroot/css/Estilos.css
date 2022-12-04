@@ -160,7 +160,7 @@ p {
 .lista2  {
     text-transform: uppercase;
     font-weight: bold;
-    
+    text-align:justify;
     margin: 0.3rem
 }
 
